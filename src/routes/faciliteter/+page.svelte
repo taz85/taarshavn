@@ -1,0 +1,11 @@
+Havnen
+Slæbested
+Masteskur
+havnepladser
+Gæstesejler
+Havnepenge
+Klubhuset
+Badefaciliteter
+autocampere
+Teltplads
+Shelter Fiskehytten
