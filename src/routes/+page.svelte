@@ -3,7 +3,7 @@
 
 <h1>Welcome to Tårs Lystbådehavn</h1>
 <div class="grid">
-	<div><img src="images\Taarshavn900.png" alt="Taarshavn fra luften" /></div>
+	<div><img src="images/Taarshavn900.png" alt="Taarshavn fra luften" /></div>
 	<div>
 		<h2>Faciliteter</h2>
 		<div class="grid">

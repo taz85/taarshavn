@@ -25,7 +25,7 @@
 		<DarkMode />
 	</Navbar>
 </header>
-<div class="flex px-4 mx-auto w-full">
+<div class="flex px-4 mx-auto w-full dark:text-white">
 	<main class="lg:ml-72 w-full mx-auto">
 		<slot />
 	</main>
