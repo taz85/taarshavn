@@ -1,46 +1,32 @@
-<script lang="ts">
-	import '@picocss/pico';
+<script>
 	import '../app.css';
+	import { DarkMode, Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 	import 'iconify-icon';
 </script>
 
-<header class="container">
-	<nav>
-		<ul>
-			<li><img src="images\Logo.png" alt="" height="100" /></li>
-			<li>Tårs Lystbådehavn</li>
-		</ul>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/nyheder">Nyheder</a></li>
-			<li><a href="/aktiviteter">Aktiviteter</a></li>
-			<li><a href="/gæster">Gæster</a></li>
-			<li><a href="/faciliteter">Faciliteter</a></li>
-			<li><a href="/om-tårsHavn">Om TårsHavn</a></li>
-			<li><a href="/billedgalleri">Billedgalleri</a></li>
-		</ul>
-	</nav>
+<header class="flex-none w-full mx-auto bg-white dark:bg-slate-950">
+	<Navbar let:hidden let:toggle>
+		<NavBrand href="/">
+			<img src="images\Logo.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
+			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+				Tårs Lystbådehavn
+			</span>
+		</NavBrand>
+		<NavHamburger on:click={toggle} />
+		<NavUl {hidden}>
+			<NavLi href="/">Home</NavLi>
+			<NavLi href="/nyheder">Nyheder</NavLi>
+			<NavLi href="/aktiviteter">Aktiviteter</NavLi>
+			<NavLi href="/gæster">Gæster</NavLi>
+			<NavLi href="/faciliteter">Faciliteter</NavLi>
+			<NavLi href="/om-tårsHavn">Om TårsHavn</NavLi>
+			<NavLi href="/billedgalleri">Billedgalleri</NavLi>
+		</NavUl>
+		<DarkMode />
+	</Navbar>
 </header>
-<main class="container">
-	<slot />
-</main>
-<footer class="container">
-	<div class="grid">
-		<div>
-			<p>Den selvejende institution Tårs Havn</p>
-			<p>Tårsvej 215 Tårs 4912 Harpelunde</p>
-			<p>CVR- nr. 65823411</p>
-		</div>
-		<div>Copyright © 2017-2023</div>
-		<div>
-			<p>Tårs Havn Hjemmeside: www.taarshavn.dk</p>
-			<p>Tlf. (Havnefoged) + 45 23 72 84 84</p>
-			<p>Mail: havnefoged@taarshavn.dk</p>
-			<p>Mail: taarshavn@taarshavn.dk</p>
-			<p>Mail: webmaster@taarshavn.dk</p>
-		</div>
-	</div>
-</footer>
-
-<style>
-</style>
+<div class="flex px-4 mx-auto w-full">
+	<main class="lg:ml-72 w-full mx-auto">
+		<slot />
+	</main>
+</div>
