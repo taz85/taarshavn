@@ -27,7 +27,24 @@
 	</Navbar>
 </header>
 <div class="dark:text-white">
-	<main class="container mx-auto mt-5">
+	<main>
 		<slot />
 	</main>
 </div>
+<footer class="container mx-auto dark:text-white mt-8">
+	<div class="grid md:grid-cols-3 text-center">
+		<div class="order-1">
+			<p>Den selvejende institution Tårs Havn</p>
+			<p>Tårsvej 215 Tårs 4912 Harpelunde</p>
+			<p>CVR- nr. 65823411</p>
+		</div>
+		<div class="order-4 md:order-2 mt-2 md:mt-0">Copyright © 2017-2023</div>
+		<div class="order-3 mt-2 md:mt-0">
+			<p>Tårs Havn Hjemmeside: www.taarshavn.dk</p>
+			<p>Tlf. (Havnefoged) + 45 23 72 84 84</p>
+			<p>Mail: havnefoged@taarshavn.dk</p>
+			<p>Mail: taarshavn@taarshavn.dk</p>
+			<p>Mail: webmaster@taarshavn.dk</p>
+		</div>
+	</div>
+</footer>
