@@ -2,11 +2,13 @@
 </script>
 
 <h1>Welcome to Tårs Lystbådehavn</h1>
-<div class="grid">
-	<div><img src="images/Taarshavn900.png" alt="Taarshavn fra luften" /></div>
+<div class="lg:grid grid-cols-2 gap-3">
+	<div>
+		<img src="images/Taarshavn900.png" alt="Taarshavn fra luften" />
+	</div>
 	<div>
 		<h2>Faciliteter</h2>
-		<div class="grid">
+		<div class="grid grid-cols-2">
 			<div>
 				<div>Toilet <iconify-icon icon="map:toilet" width="50" height="50" /></div>
 				<div>El <iconify-icon icon="material-symbols:power-plug" width="50" height="50" /></div>

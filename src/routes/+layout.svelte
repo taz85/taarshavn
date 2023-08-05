@@ -13,6 +13,7 @@
 			</span>
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
+
 		<NavUl {hidden}>
 			<NavLi href="/">Home</NavLi>
 			<NavLi href="/nyheder">Nyheder</NavLi>
@@ -21,12 +22,12 @@
 			<NavLi href="/faciliteter">Faciliteter</NavLi>
 			<NavLi href="/om-tårsHavn">Om TårsHavn</NavLi>
 			<NavLi href="/billedgalleri">Billedgalleri</NavLi>
+			<DarkMode />
 		</NavUl>
-		<DarkMode />
 	</Navbar>
 </header>
-<div class="flex px-4 mx-auto w-full dark:text-white">
-	<main class="lg:ml-72 w-full mx-auto">
+<div class="dark:text-white">
+	<main class="container mx-auto mt-5">
 		<slot />
 	</main>
 </div>
