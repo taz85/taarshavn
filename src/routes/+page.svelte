@@ -14,7 +14,7 @@
 		alt="Taarshavn fra luften"
 	/>
 	<section
-		class="bg-center bg-cover bg-[url('images/Taarshavn900.png')] bg-gray-700 bg-blend-multiply sm:basis-full xl:basis-4/5"
+		class="bg-center bg-cover bg-[url('/images/Taarshavn900.png')] bg-gray-700 bg-blend-multiply sm:basis-full xl:basis-4/5"
 	>
 		<div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
 			<h1
