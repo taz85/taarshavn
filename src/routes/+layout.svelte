@@ -13,7 +13,7 @@
 <header class="flex-none w-full mx-auto bg-white dark:bg-slate-950">
 	<Navbar let:hidden let:toggle>
 		<NavBrand href="/">
-			<img src="images\Logo.png" class="mr-3 h-6 sm:h-9" alt="Logo" />
+			<img src="images\Logo.webp" class="mr-3 h-6 sm:h-9" alt="Logo" />
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 				Tårs Lystbådehavn
 			</span>

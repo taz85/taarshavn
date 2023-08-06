@@ -5,16 +5,9 @@
 <svelte:head>
 	<title>Tårs Lystbådehavn</title>
 </svelte:head>
-<!-- <div class="container mx-auto mt-5"> -->
-<!-- <h1 class="text-4xl mb-4">Welcome to Tårs Lystbådehavn</h1> -->
 <div class="flex flex-wrap mb-4">
-	<!-- <Img
-		class="h-auto w-auto sm:basis-full xl:basis-4/5"
-		src="images/Taarshavn900.png"
-		alt="Taarshavn fra luften"
-	/> -->
 	<section
-		class="bg-center bg-cover bg-[url('/images/Taarshavn900.png')] bg-gray-700 bg-blend-multiply sm:basis-full xl:basis-4/5"
+		class="bg-center bg-cover bg-[url('/images/Taarshavn.webp')] bg-gray-700 bg-blend-multiply sm:basis-full xl:basis-4/5"
 	>
 		<div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
 			<h1
@@ -69,12 +62,10 @@
 		kurs 346° med 2 hvide ledefyr ind til havnen
 	</p>
 	<div class="felx flex-wrap">
-		<Img class="h-auto w-auto basis-1/2 m-0" src="images/142_beskaret.jpg" alt="" />
-		<Img class="h-auto w-auto basis-1/2 m-0" src="images/SM_TAARS_HarbourLimit500.jpg" alt="" />
+		<Img class="h-auto w-auto basis-1/2 m-0" src="images/142_beskaret.webp" alt="" />
+		<Img class="h-auto w-auto basis-1/2 m-0" src="images/SM_TAARS_HarbourLimit.webp" alt="" />
 	</div>
 </article>
-
-<!-- </div> -->
 
 <style>
 </style>
