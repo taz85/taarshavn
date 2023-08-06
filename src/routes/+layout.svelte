@@ -2,6 +2,12 @@
 	import '../app.css';
 	import { DarkMode, Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 	import 'iconify-icon';
+	let cc = todayDate();
+	function todayDate() {
+		var d = new Date();
+		var n = d.getFullYear() + '  ';
+		return n;
+	}
 </script>
 
 <header class="flex-none w-full mx-auto bg-white dark:bg-slate-950">
@@ -28,18 +34,19 @@
 </header>
 <div class="dark:text-white">
 	<main>
-		<slot />
+		<div class="container mx-auto mt-5">
+			<slot />
+		</div>
 	</main>
 </div>
-<footer class="container mx-auto dark:text-white mt-8">
-	<div class="grid md:grid-cols-3 text-center">
-		<div class="order-1">
+<footer class="container mx-auto dark:text-white mt-8 bg-white dark:bg-gray-900">
+	<div class="grid md:grid-cols-2 gap-4 text-center">
+		<div class="">
 			<p>Den selvejende institution Tårs Havn</p>
 			<p>Tårsvej 215 Tårs 4912 Harpelunde</p>
 			<p>CVR- nr. 65823411</p>
 		</div>
-		<div class="order-4 md:order-2 mt-2 md:mt-0">Copyright © 2017-2023</div>
-		<div class="order-3 mt-2 md:mt-0">
+		<div class="">
 			<p>Tårs Havn Hjemmeside: www.taarshavn.dk</p>
 			<p>Tlf. (Havnefoged) + 45 23 72 84 84</p>
 			<p>Mail: havnefoged@taarshavn.dk</p>
@@ -47,4 +54,5 @@
 			<p>Mail: webmaster@taarshavn.dk</p>
 		</div>
 	</div>
+	<div class=" mt-2 md:mt-0 text-center">Copyright © 2017 - {cc}</div>
 </footer>
