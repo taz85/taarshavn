@@ -63,7 +63,7 @@
 	</p>
 	<div class="felx flex-wrap">
 		<Img class="h-auto w-auto basis-1/2 m-0" src="images/142_beskaret.webp" alt="" />
-		<Img class="h-auto w-auto basis-1/2 m-0" src="images/HarbourLimit500.webp" alt="" />
+		<Img class="h-auto w-auto basis-1/2 m-0" src="images/harbourLimit500.webp" alt="" />
 	</div>
 </article>
 
