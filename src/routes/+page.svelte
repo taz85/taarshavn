@@ -8,11 +8,11 @@
 <!-- <div class="container mx-auto mt-5"> -->
 <!-- <h1 class="text-4xl mb-4">Welcome to Tårs Lystbådehavn</h1> -->
 <div class="flex flex-wrap mb-4">
-	<Img
+	<!-- <Img
 		class="h-auto w-auto sm:basis-full xl:basis-4/5"
 		src="images/Taarshavn900.png"
 		alt="Taarshavn fra luften"
-	/>
+	/> -->
 	<section
 		class="bg-center bg-cover bg-[url('/images/Taarshavn900.png')] bg-gray-700 bg-blend-multiply sm:basis-full xl:basis-4/5"
 	>
