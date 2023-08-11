@@ -13,10 +13,11 @@
 <header class="flex-none w-full mx-auto bg-white dark:bg-slate-950">
 	<Navbar let:hidden let:toggle>
 		<NavBrand href="/">
-			<img src="images\Logo.webp" class="mr-3 h-6 sm:h-9" alt="Logo" />
-			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+			<img src="images\Logo-Taarshavn_dark.webp" class="mr-3 h-14 hidden dark:block" alt="Logo" />
+			<img src="images\Logo-Taarshavn.webp" class="mr-3 h-14 dark:hidden" alt="Logo" />
+			<!-- <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
 				Tårs Lystbådehavn
-			</span>
+			</span> -->
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 

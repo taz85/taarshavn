@@ -4,6 +4,10 @@
 
 <svelte:head>
 	<title>Tårs Lystbådehavn</title>
+	<meta
+		name="TårsHavn er en lille havn med 45 havnepladser i den nord-vestlige del af Nakskov fjord, ved
+	færgeforbindelsen “Tårs-Spodsbjerg”"
+	/>
 </svelte:head>
 <div class="flex flex-wrap mb-4">
 	<section
@@ -63,7 +67,7 @@
 	</p>
 	<div class="felx flex-wrap">
 		<Img class="h-auto w-auto basis-1/2 m-0" src="images/142_beskaret.webp" alt="" />
-		<Img class="h-auto w-auto basis-1/2 m-0" src="images/harbourLimit500.webp" alt="" />
+		<Img class="h-auto w-auto basis-1/2 m-0" src="images/harbourLimit.webp" alt="" />
 	</div>
 </article>
 
